@@ -76,5 +76,4 @@ public:
 	friend StringArray;
 };
 
-
 #endif /* _STRINGARRAY */

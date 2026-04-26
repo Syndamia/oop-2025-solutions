@@ -1,5 +1,6 @@
 #include "StringArray.h"
-#include <iostream>
+
+/* StringArray клас */
 
 void StringArray::free() {
 	delete[] strings;
@@ -123,7 +124,7 @@ std::ostream& operator<<(std::ostream& ostr, const StringArray& sa) {
 	return ostr;
 }
 
-/* Помощен клас Z */
+/* Z клас (помощен) */
 
 void Z::free() {
 	delete[] numbers;
